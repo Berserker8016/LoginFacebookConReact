@@ -19,7 +19,7 @@ class FacebookLogin extends Component {
   componentDidMount(){
     window.fbAsyncInit = () => {
       window.FB.init({
-        appId      : '183882898874716',
+        appId      : '{Facebook App ID}',
         xfbml      : true,
         version    : 'v2.11'
       });
