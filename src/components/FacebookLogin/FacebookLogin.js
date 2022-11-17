@@ -91,12 +91,12 @@ class FacebookLogin extends Component {
         <h1>Un ejemplo de Login/Logout con Facebook</h1>
         {this.showPersonalData()}
         <div className="fb-login-button" 
-             data-max-rows="1" 
-             data-size="large" 
-             data-button-type="continue_with" 
-             data-show-faces="false" 
-             data-auto-logout-link="true" 
-             data-use-continue-as="false">
+              data-max-rows="1" 
+              data-size="large" 
+              data-button-type="continue_with" 
+              data-show-faces="false" 
+              data-auto-logout-link="true" 
+              data-use-continue-as="false">
           </div>
       </Contenedor>
     );
